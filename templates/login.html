@@ -1,12 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page </title>
+    <title>login page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'loginpage.css '%}">
+
 </head>
+
 <body>
-    <h1> testing 1 bro !</h1>
-    
+    <div class="box1">
+        <div class="boxinside">
+            <div class="logo"></div>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="boxinside2">
+            <div class="text1">
+                <p>Log in to Sportify</p>
+            </div>
+            <div class="google border size">
+                <span class="googlelogo"></span>
+                <span class="logingoogle text">
+                    <p>Continue with Google</p>
+                </span>
+            </div>
+            <div class="facebook border size">
+                <span class="facebooklogo"></span>
+                <span class="facebook text">
+                    <p>Continue with Facebook</p>
+                </span>
+            </div>
+            <div class="facebook border size">
+                <span class="applelogo"></span>
+                <span class="apple text">
+                    <p>Continue with Apple</p>
+                </span>
+            </div>
+            <div class="facebook border size">
+                <span class="others text">
+                    <p>Continue with Phone Number</p>
+                </span>
+            </div>
+
+            <!-- now we are going to lgoin form manual  -->
+            <hr class="hrtag">
+
+            <!-- now we are starting -->
+            <div class="box3">
+
+                <form action="/" method="POST">
+                    {% csrf_token %}
+                    <div class="username ">
+                        <div class="label">
+                            <label for="usernmae">
+                                Email or Username
+                            </label>
+
+                        </div>
+                                                                            
+
+
+                        <div class="inputuser ">
+                            <input type="text" name="email" placeholder="Email or Username">
+
+                        </div>
+
+                    </div>
+                    <div class="password">
+                        <div class="label">
+                            <label for="password">
+                                Password
+                            </label>
+
+
+                        </div>
+
+
+                        <div class="inputpass ">
+                            <input type="text" name="password" placeholder="Password">
+
+
+                        </div>
+
+                    </div>
+                    <div class="rememberme">
+                        <div class="remember text">
+                            <p>slider</p>
+
+                        </div>
+                        <div class="remembermetxt text ">
+                            <p>Remember me</p>
+                        </div>
+                    </div>
+                    <div class="button1 ">
+                        <input class="text " type="submit" value="Log In">
+                    </div>
+                </form>
+                <div class="txt5">
+                    <a href="#">Forget your password?</a>
+                </div>
+
+
+                <!-- endtaga     </div> -->
+                <hr class="hrtag">
+
+                <div class="lastline">
+
+                    <div class="txt6 ">
+                        <p>Dont have an account?</p>
+                    </div>
+                    <div class="txt5 ">
+                        <a href="#">Sign up for Sportify</a>
+                    </div>
+
+                </div>
+                <div class="foot">
+                    <p>This site is protected by reCAPTCHA and the Google </p>
+
+                    <div class="last">
+                        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy
+                            Policy</a>
+                        <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Terms of
+                            Service</a>
+
+
+                    </div>
+                    <p class="plast">apply.</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
 </body>
+
 </html>

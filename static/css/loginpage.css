@@ -1,0 +1,339 @@
+body {
+    background-color: rgba(23, 23, 23, 255);
+    margin: 0px;
+}
+
+.box1 {
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgba(1, 0, 1, 255);
+    height: 100px;
+
+
+}
+
+.boxinside {
+    padding: 32px 0px 32px 51px;
+
+}
+
+.logo {
+    background-image: url(/static/images/images.png);
+    background-size: cover;
+    background-position: center;
+    height: 43px;
+    width: 140px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 32px 32px 32px;
+}
+
+.boxinside2 {
+    background-color: rgba(1, 0, 1, 255);
+    height: 100%;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.text1 {
+
+    margin: 48px 0px;
+}
+
+.text1 p {
+    color: white;
+    font-family: var(--font-family, CircularSpTitle, CircularSpTitle-Tall, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.border {
+    border: 2px solid #636362;
+    border-radius: 500px;
+
+}
+
+.google {
+    display: flex;
+    flex-direction: row;
+
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.border:hover {
+    border: 2px solid white;
+    border-radius: 500px;
+
+}
+
+.size {
+    width: 350px;
+    margin-bottom: 8px;
+    height: 50px;
+
+}
+
+.text p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+
+
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.applelogo {
+    background-image: url(/static/images/apple.png);
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    margin-right: 37px;
+    margin-left: -77px;
+
+
+}
+
+.facebooklogo {
+    background-image: url(/static/images/facebook.png);
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: -55px;
+
+
+}
+
+.googlelogo {
+    background-image: url(/static/images/google.png);
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: -55px;
+
+}
+
+.logingoogle p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+
+/* next block we are doing  */
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    width: 500px;
+    color: #636362;
+
+}
+
+.hrtag {
+    margin: 30px 100px 30px 100px;
+}
+
+/* -------------------------------------------------------------------
+- */
+label {
+    color: white;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    -webkit-box-align: center;
+    align-items: center;
+
+
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8px;
+
+    justify-content: center;
+}
+
+input {
+    width: 330px;
+    height: 39px;
+    padding: 8px 10px 8px 10px;
+    background-color: #121313;
+    color: #a6a7a6;
+    border-radius: 8px;
+    border: 2px solid #656564;
+
+}
+
+
+.inputpass {
+    margin: 8px auto 8px auto;
+
+
+}
+
+.inputuser {
+    margin: 8px auto 8px auto;
+
+}
+
+.inputuser input {
+    font-size: 1rem;
+}
+
+.inputpass input {
+    font-size: 1rem;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-weight: 700px;
+
+}
+
+.rememberme {
+    display: flex;
+    flex-direction: row;
+}
+
+.remembermetxt {
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.remembermetxt p {
+    font-weight: 400px;
+
+
+}
+
+.button1 input {
+    width: 330px;
+    height: 45px;
+    padding: 8px 10px 8px 10px;
+    background-color: #121313;
+    color: #a6a7a6;
+    border-radius: 500px;
+    border: 2px solid #656564;
+
+}
+
+.button1 input {
+    font-size: 1rem;
+    background-color: #1fd660;
+    color: black;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-weight: 900px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button1 input:hover {
+    width: 335px;
+
+    font-size: large;
+}
+
+.txt5 {
+    position: relative;
+
+    background-color: transparent;
+
+}
+
+.txt5 a {
+    color: white;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-weight: 900px;
+
+}
+
+.txt5 a:hover {
+    color: #1fd660;
+}
+
+.lastline {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+}
+
+
+
+.txt6 {
+    position: relative;
+    bottom: 16px;
+    margin-right: 3px;
+
+
+}
+
+.txt6 p {
+    color: #656564;
+    background-color: transparent;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-weight: 900px;
+
+}
+
+p {
+    background-color: transparent;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-weight: 900px;
+    color: rgb(167, 167, 167);
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.foot p {
+    font-size: 0.6875rem;
+    font-weight: 400;
+}
+
+.foot a {
+    font-size: 0.6875rem;
+    font-weight: 400;
+    color: rgb(167, 167, 167);
+}
+.last {
+    position: relative;
+    top: 6px;
+    margin-left: 2px;
+}
+.plast {
+    margin-left: 3px;
+}
+
