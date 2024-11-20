@@ -2,8 +2,10 @@
 
 Welcome to the **Spotify Login Form** project! This project showcases a login and registration system built with **Django** and connected to a **MySQL database**. It features responsive designs made with **HTML** and **CSS**, offering a smooth user experience.
 
-> ⚠️ **Important Note**:  
-> Due to some backend issues, such as database connectivity problems with the hosting platform, the hosted project may not load as expected. You can still run the project locally by following the instructions below.
+> 🛑 **Important Note**:  
+> The hosted project is available at [https://narensporttify.pythonanywhere.com/](https://narensporttify.pythonanywhere.com/).  
+> However, due to backend issues, such as database connectivity problems with the hosting platform, the project may not load as expected.  
+> You can still run the project locally by following the instructions below.
 
 ---
 
